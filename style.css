@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0.5;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body {
+  background-color: #374850;
+}
+.about,
+.home,
+.contact {
+  padding: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.banner {
+  min-height: 100vh;
+  background: url(Assets/image/background.png);
+  background-size: cover;
+  background-position: right;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.banner h1 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+.banner h1 span {
+  font-size: 2em;
+  font-weight: 200;
+  font-style: italic;
+  color: mediumpurple;
+  margin-top: 50px;
+  text-shadow: teal;
+}
+
+.banner h3 {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.main {
+  position: relative;
+  background: #2196f3;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 30px;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+nav .logo {
+  color: lightyellow;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: wavy;
+  font-weight: 700;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+nav ul li {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  color: mistyrose;
+  text-decoration-color: none;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  background-color: blueviolet;
+  color: black;
+}
+/* create navbar */
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: wheat;
+}
+
+.heading h2 {
+  padding: 50px;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.contentBx {
+  padding-right: 30px;
+  color: black;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.contentBx h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: left;
+  justify-content: space-between;
+  color: #9370db;
+}
+
+.w50 {
+  min-width: 50%;
+}
+
+.bio-img {
+  max-width: 50%;
+  margin-left: 50%;
+  margin-top: 80px;
+}
+
+/* .Projects {
+} */
+
+.Projects {
+  padding: 100px;
+}
+
+.Projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ProjectBx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px 10px 20px;
+  font-size: 20px;
+}
+
+.heading.white {
+  color: wheat;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.contact-container p {
+  padding: 5px;
+}
+
+.ContactMe {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    width: 90%;
+    margin: 20px 0;
+  }
+  .card {
+    display: table-row;
+  }
+}
+
+.card {
+  background: #6b7c83;
+  border-radius: 10px;
+  text-align: center;
+}
