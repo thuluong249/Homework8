@@ -19,7 +19,7 @@
 ---
 
 Home page 
-![Home Page](./Assets/image/home.png)
+![Home Page](./Assets/image/Home.png)
 
 ---
 
@@ -34,7 +34,7 @@ Projects
 ---
 
 Contact info
-![Contact](./Assets/image/contact.png)
+![Contact](./Assets/image/Contact.png)
 
 ---
 
